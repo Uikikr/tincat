@@ -59,6 +59,8 @@ h3 {
     margin: 5% 3% 5% 0%;
 }
 
+/*Features*/
+
 #features {
     padding: 7% 15%;
     background-color: #fff;
@@ -78,6 +80,8 @@ h3 {
 .features-logo:hover {
     color: #ff4c68;
 }
+
+/*Testamonial*/
 
 #testimonials {
 
@@ -107,6 +111,8 @@ h3 {
     margin: 20px 20px;
 }
 
+/*Pricing*/
+
 #pricing {
     text-align: center;
     padding: 100px;
@@ -114,4 +120,42 @@ h3 {
 
 .pricing-column {
     padding: 3% 2%;
+}
+
+/*CTA*/
+
+#cta {
+    background-color: #ff4c68;
+    color: #FFF;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+/*Footer*/
+
+#footer {
+    background-color: #FFF;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.contact {
+    width: 5%;
+    font-size: 1.5rem;
+    padding-bottom: 3%;
+}
+
+.copyright {
+    font-size: 1.4rem;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+    .img-mock {
+        position: static;
+        transform: none;
+    }
 }
